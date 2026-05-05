@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano Keyboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app" aria-labelledby="title">
+      <section class="panel">
+        <div class="topbar">
+          <div>
+            <p class="eyebrow">Web Audio Piano</p>
+            <h1 id="title">Play a few notes</h1>
+          </div>
+          <div class="status" id="status">Ready</div>
+        </div>
+
+        <div class="keyboard" id="keyboard" aria-label="Piano keyboard">
+          <button class="key white" data-note="C4" data-key="A">
+            <span>C</span>
+            <kbd>A</kbd>
+          </button>
+          <button class="key black" data-note="C#4" data-key="W">
+            <span>C#</span>
+            <kbd>W</kbd>
+          </button>
+          <button class="key white" data-note="D4" data-key="S">
+            <span>D</span>
+            <kbd>S</kbd>
+          </button>
+          <button class="key black" data-note="D#4" data-key="E">
+            <span>D#</span>
+            <kbd>E</kbd>
+          </button>
+          <button class="key white" data-note="E4" data-key="D">
+            <span>E</span>
+            <kbd>D</kbd>
+          </button>
+          <button class="key white" data-note="F4" data-key="F">
+            <span>F</span>
+            <kbd>F</kbd>
+          </button>
+          <button class="key black" data-note="F#4" data-key="T">
+            <span>F#</span>
+            <kbd>T</kbd>
+          </button>
+          <button class="key white" data-note="G4" data-key="G">
+            <span>G</span>
+            <kbd>G</kbd>
+          </button>
+          <button class="key black" data-note="G#4" data-key="Y">
+            <span>G#</span>
+            <kbd>Y</kbd>
+          </button>
+          <button class="key white" data-note="A4" data-key="H">
+            <span>A</span>
+            <kbd>H</kbd>
+          </button>
+          <button class="key black" data-note="A#4" data-key="U">
+            <span>A#</span>
+            <kbd>U</kbd>
+          </button>
+          <button class="key white" data-note="B4" data-key="J">
+            <span>B</span>
+            <kbd>J</kbd>
+          </button>
+          <button class="key white" data-note="C5" data-key="K">
+            <span>C</span>
+            <kbd>K</kbd>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
